@@ -23,11 +23,45 @@ Kommen wir nun zu unserem vorherigen Beispiel, dem sortieren einer Liste zurück
 Da die Länge einer Liste, welche mit einem Bestimmen Algorithmus sortiert werden soll, meist variabel ist, kann man die Laufzeit des Algorithmus nicht in Sekunden oder Minuten angeben.
 Hier kommt die Landau-Notaion (auch O-Notation genannt) ins Spiel.<br>
 Diese ermöglicht es uns, eine allgemeine Aussage über das Laufzeitverhalten von Algorithmen zu tätigen.
+<br>
+Jetzt folgt eine kleine Erklärung, der häufigsten Notationen.
 
-*O(1)*
+**O(1)**:
 konstante Komplexität, die Laufzeit hängt nicht von der Datenmenge ab.
 z.B. Arrayzugriff, Hashtable
-
+<br>
+<br>
+**O(n)**:
+lineare Komplexität, die Laufzeit ist propertional zur Datenmenge.
+z.B. Schleife über ein Array um einen Wert zu finden, Einlesen einer Treffermenge aus der Datenbank
+<br>
+<br>
+**O(n²)**:
+quadratische Komplexität, eine doppelte Datenmenge vervierfacht die Laufzeit
+z.B. Bubble-Sort
+<br>
+<br>
+**O(log n)**:
+logarithmische Komplexität, wird die Datenmenge jeweils verdoppelt, steigt die Laufzeit linear an
+z.B. Suchbäume
+<br>
+<br>
+**O(n log n)**:
+superlineare Komplexität, liegt zwischen 𝒪(n) und 𝒪(n²). Tritt zum Beispiel auf, wenn eine Schleife über eine Baumsuche gebildet wird.
+z.B. optimierte Sortieralgorithmen wie Quicksort
+<br>
+<br>
+**O(2ⁿ)**:
+exponentielle Komplexität, die Laufzeit verdoppelt sich, wenn die Datenmenge um eine Einheit größer wird.
+z.B. Bilden aller Paare einer Menge, Türme von Hanoi als rekursiver Algorithmus
+<br>
+<br>
+**O(n!)**:
+faktorielle Komplexität, die Laufzeit wächst mit der Fakultät der Datenmenge.
+z.B. Problem des Handlungsreisenden
+<br>
+Da es manchen bestimmt trotzdem noch schwerfällt, sich darunter was vorzustellen, habe ich hier noch mal ein Bild eingefügt, welches das soeben Beschriebene visuell darstellt.
+<br>
 
 
 ![image](https://user-images.githubusercontent.com/83044113/151657832-9b5915d3-65ec-4f43-a859-9e8c630d81ea.png)
