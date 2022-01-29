@@ -84,7 +84,18 @@ Da es manchen bestimmt trotzdem noch schwerfällt, sich darunter was vorzustelle
 <br>
 
 ![image](https://user-images.githubusercontent.com/83044113/151657832-9b5915d3-65ec-4f43-a859-9e8c630d81ea.png)
+<br>
+<br>
+Zusätzlich spielt auch noch die sogenannte Space complexity (Platzkomplexität) eine wichtige Rolle.
+Diese gibt an, wie viel Speicher ein Algorithmus benötigt.
+Die Platzkomplexität wird ebenfalls mit der zuvor erklärten Landau-Notation angegeben.
+<br>
+<br>
 
+### In-Place-Algorithmus
+Wenn du dich mit Algorithmen beschäftigst, wirst du um den Begriff In-Place nicht herumkommen.
+Dieser bedeutet lediglich, dass kein neuer Speicherplatz für die Ausführung des Algorithmus benötigt wird, da um wieder zu dem Beispiel einer Liste, die sortiert werden muss, zurück zukommen, die Elemente nur untereinander getauscht und keine neue Listen erstellt werden.
+Ein Beispiel hierfür ist der Bubblesort Algorithmus.
 
 
 
