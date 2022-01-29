@@ -47,27 +47,27 @@ Jetzt folgt eine kleine Erklärung, der häufigsten Notationen.
 
 **O(1)**:
 konstante Komplexität, die Laufzeit hängt nicht von der Datenmenge ab.
-z.B. Arrayzugriff, Hashtable
+z.B. Arrayzugriff, Hashtable.
 <br>
 <br>
 **O(n)**:
 lineare Komplexität, die Laufzeit ist propertional zur Datenmenge.
-z.B. Schleife über ein Array um einen Wert zu finden, Einlesen einer Treffermenge aus der Datenbank
+z.B. Schleife über ein Array um einen Wert zu finden, Einlesen einer Treffermenge aus der Datenbank.
 <br>
 <br>
 **O(n²)**:
 quadratische Komplexität, eine doppelte Datenmenge vervierfacht die Laufzeit
-z.B. Bubble-Sort
+z.B. Bubble-Sort.
 <br>
 <br>
 **O(log n)**:
 logarithmische Komplexität, wird die Datenmenge jeweils verdoppelt, steigt die Laufzeit linear an
-z.B. Suchbäume
+z.B. Suchbäume.
 <br>
 <br>
 **O(n log n)**:
 superlineare Komplexität, liegt zwischen 𝒪(n) und 𝒪(n²). Tritt zum Beispiel auf, wenn eine Schleife über eine Baumsuche gebildet wird.
-z.B. optimierte Sortieralgorithmen wie Quicksort
+z.B. optimierte Sortieralgorithmen wie Quicksort.
 <br>
 <br>
 **O(2ⁿ)**:
@@ -77,7 +77,7 @@ z.B. Bilden aller Paare einer Menge, Türme von Hanoi als rekursiver Algorithmus
 <br>
 **O(n!)**:
 faktorielle Komplexität, die Laufzeit wächst mit der Fakultät der Datenmenge.
-z.B. Problem des Handlungsreisenden
+z.B. Problem des Handlungsreisenden.
 <br>
 <br>
 Da es manchen bestimmt trotzdem noch schwerfällt, sich darunter was vorzustellen, habe ich hier noch mal ein Bild eingefügt, welches das soeben Beschriebene visuell darstellt.
