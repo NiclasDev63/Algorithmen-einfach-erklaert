@@ -123,3 +123,17 @@ if list[j] > list[j+1]:
 Wie sich hieraus relativ unschwer erkennen lässt, wird das aktuelle Element n, immer mit dem nächsten Element n+1 verglichen.
 Wenn man jedoch bereits am Ende der Liste angekommen ist und dieser Vergleich trotzdem durchgeführt wird, entsteht eine sogenannte "list index out of range" Exception, was auf Deutsch übersetzt einfach bedeutet, das es einen Fehler gibt und dein Programm abstürzt.
 Das passiert, da man das Letzte Element in der Liste mit dem Nächsten vergleicht, obwohl kein nächstes existiert.
+<br>
+<br>
+
+### Die Laufzeitkomplexität von Bubblesort:
+<br>
+
+**Im schlimmsten Fall**: O(n²)<br>
+**Im Normalfall**: O(n²)<br>
+**Im Optimalfall**: O(n) (Dieser Fall tritt nur auf, wenn die Liste bereits sortiert ist.)<br>
+<br>
+<br>
+
+### Platzkomplexität
+Die Platzkomplexität beträgt O(1), da das Sortieren der Liste In-Place durchgeführt wird.
