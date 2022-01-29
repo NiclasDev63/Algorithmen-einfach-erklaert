@@ -73,7 +73,11 @@ Da es manchen bestimmt trotzdem noch schwerfällt, sich darunter was vorzustelle
 
 
 
-
-
-
-
+<br>
+<br>
+Falls ich etwas vergessen habe oder sich irgendwelche Fehler eingeschlichen haben, würde ich mich freuen, wenn du mich darauf aufmerksam machst.
+<br>
+<br>
+Quellen:<br>
+https://ichi.pro/de/algorithmen-und-big-o-notation-274052038946963<br>
+https://wiki.selfhtml.org/wiki/Laufzeitkomplexit%C3%A4t<br>
