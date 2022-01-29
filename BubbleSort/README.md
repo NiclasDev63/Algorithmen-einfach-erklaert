@@ -1,4 +1,4 @@
-# Bubble Sort
+# Bubblesort
 
 Dieser Algorithmus gehört zu den einfacheren und ist in der regel einer der ersten, die man lernt.
 <br>
