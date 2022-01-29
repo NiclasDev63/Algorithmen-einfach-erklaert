@@ -60,9 +60,9 @@ z.B. Bilden aller Paare einer Menge, Türme von Hanoi als rekursiver Algorithmus
 faktorielle Komplexität, die Laufzeit wächst mit der Fakultät der Datenmenge.
 z.B. Problem des Handlungsreisenden
 <br>
+<br>
 Da es manchen bestimmt trotzdem noch schwerfällt, sich darunter was vorzustellen, habe ich hier noch mal ein Bild eingefügt, welches das soeben Beschriebene visuell darstellt.
 <br>
-
 
 ![image](https://user-images.githubusercontent.com/83044113/151657832-9b5915d3-65ec-4f43-a859-9e8c630d81ea.png)
 
