@@ -1,4 +1,5 @@
 # Algorithmen einfach erklärt
+## Ich versuche pro Woche mindestens eine Erklärung zu einem Algorithmus hochzuladen.
 Da ich, als ich angefangen habe, Algorithmen zu lernen, leider größtenteils auf rein englisch sprachige Tutorials gestoßen bin, was nicht unbedingt dabei geholfen hat, sie zu verstehen, dachte ich mir, so etwas müsste es in Deutsch geben.
 Aus diesem Grund werde ich in diesem Repository ein paar der bekanntesten Algorithmen in Deutsch näher erklären.
 Alle Algorithmen werden für ein besseres Verständnis zusätzlich zu der Erklärung noch in Python implementiert.
