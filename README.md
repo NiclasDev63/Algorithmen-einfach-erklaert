@@ -15,7 +15,26 @@ Des weiteren werden Kenntnisse über folgende Datenstrukturen vorausgesetzt, da 
 First things first.
 ### Was ist ein Algorithmus? <br>
 Einfach erklärt, ein Algorithmus ist eine Reihe von Anweisungen, die Schritt für Schritt ausgeführt werden, um ein bestimmtes Problem, wie beispielsweise das Sortieren einer Liste, zu lösen.
+Sie helfen uns aber auch im Alltag weiter, Stichpunkt Google Maps.
+Zu den bekanntesten gehören unter anderem die Algorithmen:
+* Bubblesort
+* Insertionsort
+* Quicksort
+* Mergesort
+* Breadth First Search / Depth First Search (Breiten- und Tiefensuche)
+* Binary Search (Binäre Suche)
+* Shor-Algorithmus
 <br>
+Wobei Letzterer für Quantencomputer und nicht für herkömmliche Computer entwickelt wurde.
+<br>
+Die Leser, die gerne mehr über den Shor-Algorithmus erfahren möchten, können dies hier tun:
+<br>
+https://de-academic.com/dic.nsf/dewiki/1283433
+<br>
+<br>
+Einige dieser Algorithmen werde ich in diesem Repository behandeln.
+<br>
+
 ### Landau-Notation (O-Notation oder auch big O notation)
 Wenn du relativ neu im Thema Algorithmen bist, wirst du dir wahrscheinlich die Frage stellen, was ist die Landau-Notation und wozu brauch man sie.
 Da in der Informatik das Laufzeitverhalten von Programmen eine wichtige und fundamentale Rolle spielt, muss es eine Möglichkeit geben, dieses anzugeben.<br>
