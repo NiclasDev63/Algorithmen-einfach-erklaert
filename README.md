@@ -16,7 +16,7 @@ Des weiteren werden Kenntnisse über folgende Datenstrukturen vorausgesetzt, da 
 First things first.
 ### Was ist ein Algorithmus? <br>
 Einfach erklärt, ein Algorithmus ist eine Reihe von Anweisungen, die Schritt für Schritt ausgeführt werden, um ein bestimmtes Problem, wie beispielsweise das Sortieren einer Liste, zu lösen.
-Sie helfen uns aber auch im Alltag weiter, Stichpunkt Google Maps.
+Sie helfen uns aber auch im Alltag weiter, Stichwort Google Maps.
 Zu den bekanntesten gehören unter anderem die Algorithmen:
 * Bubblesort
 * Insertionsort
