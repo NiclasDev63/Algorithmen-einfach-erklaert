@@ -19,7 +19,7 @@ Das "i" neben den Kästchen gibt an, der wievielte Schleifendurchlauf es ist.<br
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/83044113/151662692-9cc8c473-fb4d-41f0-9a6e-58849a917be7.png)
+![image](https://user-images.githubusercontent.com/83044113/151702325-27d2b846-b6b1-402c-b3f1-e5266ed2684f.png)
 
 <br>
 <br>
