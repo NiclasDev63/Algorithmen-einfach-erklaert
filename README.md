@@ -23,10 +23,11 @@ Zu den bekanntesten gehören unter anderem die Algorithmen:
 * Quicksort
 * Mergesort
 * Breadth First Search / Depth First Search (Breiten- und Tiefensuche)
+* Dijkstras Algorithmus
 * Binary Search (Binäre Suche)
 * Euklidischer Algorithmus
 * SHA-256 (Wird bspw. im Bitcoin Netzwerk für das Mining und zur Erstellung von Bitcoin Adressen verwendet)
-* Shor-Algorithmus
+* Shors Algorithmus
 <br>
 Wobei Letzterer für Quantencomputer und nicht für herkömmliche Computer entwickelt wurde.
 <br>
