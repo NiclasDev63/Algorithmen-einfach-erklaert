@@ -36,6 +36,5 @@ print("Unsortierte Liste: " + str(list))
 # ruft unsere Funktion mit der zu sortierenden Liste auf
 insertionSort(list)
 
-
 # Hier geben wir unsere sortierte liste in der Konsole aus
 print("Sortierte Liste: " + str(list))
