@@ -23,7 +23,7 @@ Das "i" neben den Kästchen gibt an, der wievielte Schleifendurchlauf es ist.<br
 
 <br>
 <br>
-Nun schauen wir uns eine Implementation des Algortihmus in Python an.
+Nun schauen wir uns eine Implementierung des Algorithmus in Python an.
 <br>
 <br>
 
