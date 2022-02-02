@@ -1,8 +1,18 @@
 # Insertionsort
+Insertionsort ist ein einfacher Sortieralgorithmus, welcher wegen seiner Funktionsweise oft mit dem Sortieren von Karten in der Hand verglichen wird.
+
+### Laufzeitkomplexität:
+
+**Im schlimmsten Fall**: O(n²)<br>
+**Im Normalfall**: O(n²)<br>
+**Im Optimalfall**: O(n) (Dieser Fall tritt nur auf, wenn die Liste bereits sortiert ist.)<br>
+
+### Platzkomplexität
+Die Platzkomplexität beträgt O(1), da das Sortieren der Liste In-Place durchgeführt wird.
+
 ### Funktionsweise
-Insertionsort ist einfacher sortier Algorithmus, welcher wegen seiner Funktionsweise oft mit dem Sortieren von Karten in der Hand verglichen wird.
-Hierbei wird das aktuelle Element mit seinem Vorgänger verlgichen und gegebenfalls getauscht.
-Dies passiert solange, bis das aktuelle Element nicht mehr kleiner als sein Vorgänger ist oder wir am Ende besser gesagt am Anfang der Liste angekommen sind.
+Bei diesem Algorithmus wird das aktuelle Element mit seinem Vorgänger verlgichen und gegebenfalls getauscht.
+Dies passiert solange, bis das aktuelle Element nicht mehr kleiner als sein Vorgänger ist oder wir am Anfang der Liste angekommen sind.
 <br>
 Ich finde, Algorithmen sind meistens am einfachsten zu verstehen, wenn man mal ein paar Schleifendurchläufe gesehen hat.
 Aus diesem Grund werden wir genau das tun.
@@ -91,7 +101,10 @@ insertionSort(list)
 # Hier geben wir unsere sortierte liste in der Konsole aus
 print("Sortierte Liste: " + str(list))
 ```
-
+<br>
+Da es bei dem ein oder anderen Leser bestimmt noch offene Fragen gibt, gehe ich nun auf die einzelnen Abschnitte des Codes ein.
+<br>
+<br>
 
 
 
