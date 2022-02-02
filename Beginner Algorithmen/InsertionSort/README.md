@@ -37,7 +37,7 @@ Aus diesem Grund werden wir genau das tun.
 So geht es weiter, bis wir am Ende unserer Liste angekommen sind, also bis n-1 (n entspricht der Länge der Liste).
 <br>
 <br>
-Im Folgenden habe ich ein Bild eingefügt, welches den ganzen Vorgang anhand von unserer Liste noch einmal visuell darstellt.
+Im Folgenden habe ich ein Bild eingefügt, welches den ganzen Vorgang mit unserer Liste noch einmal visuell darstellt.
 <br>
 <br>
 
