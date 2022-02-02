@@ -7,7 +7,7 @@ def insertionSort(list):
     # startet bei 1 und geht bis n-1
     for i in range(1, n):
 
-        # ist das aktuelle Element, welches verschoben wird
+        # ist das aktuelle Element, welches mit seinem Vorgänger verglichen wird
         aktuelles_element = list[i]
 
 
