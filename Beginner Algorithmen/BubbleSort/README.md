@@ -1,6 +1,16 @@
 # Bubblesort
 
 Dieser Algorithmus gehört zu den einfacheren und ist in der regel einer der ersten, die man lernt.
+Er dient zum sortieren von Listen.
+<br>
+### Laufzeitkomplexität:
+
+**Im schlimmsten Fall**: O(n²)<br>
+**Im Normalfall**: O(n²)<br>
+**Im Optimalfall**: O(n) (Dieser Fall tritt nur auf, wenn die Liste bereits sortiert ist.)<br>
+
+### Platzkomplexität
+Die Platzkomplexität beträgt O(1), da das Sortieren der Liste In-Place durchgeführt wird.
 <br>
 Im Folgenden werde ich dir die Funktionsweise des Bubble Sort Algorithmus anhand von Python Code und Illustrationen näher erleutern.
 <br>
@@ -125,15 +135,3 @@ Wenn man jedoch bereits am Ende der Liste angekommen ist und dieser Vergleich tr
 Das passiert, da man das Letzte Element in der Liste mit dem Nächsten vergleicht, obwohl kein nächstes existiert.
 <br>
 <br>
-
-### Die Laufzeitkomplexität von Bubblesort:
-<br>
-
-**Im schlimmsten Fall**: O(n²)<br>
-**Im Normalfall**: O(n²)<br>
-**Im Optimalfall**: O(n) (Dieser Fall tritt nur auf, wenn die Liste bereits sortiert ist.)<br>
-<br>
-<br>
-
-### Platzkomplexität
-Die Platzkomplexität beträgt O(1), da das Sortieren der Liste In-Place durchgeführt wird.
