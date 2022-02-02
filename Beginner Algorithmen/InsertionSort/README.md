@@ -106,6 +106,31 @@ Da es bei dem ein oder anderen Leser bestimmt noch offene Fragen gibt, gehe ich 
 <br>
 <br>
 
+```python
+# erste Schleife
+# startet bei 1 und geht bis n-1
+for i in range(1, n):
+
+    # ist das aktuelle Element, welches mit seinem Vorgänger verglichen wird
+    aktuelles_element = list[i]
+```
+Hier fragt ihr euch vielleicht, wieso starten wir an der Stelle 1 und nicht an der Stelle 0, wie es bspw. bei dem Bubblesort Algorithmus üblich ist.
+Das liegt daran, das i unser aktuelles Element ist und wie wir durch das vorherige Beispiel wissen, dieses immer mit seinem Vorgänger verglichen wird, was jedoch nicht möglich wäre, wenn wir an der stelle 0 beginnen, da wir dann am Anfang der Liste wären und es somit keinen Vorgänger gibt, wodurch ein Fehler entstehen würde, der das Programm zum Absturz bringt.
+<br>
+<br>
+
+```python
+# zweite Schleife
+# wird ausgeführt, solange j größer oder gleich 0 ist UND das aktuelle Element kleiner als sein Vorgänger ist
+while j >= 0 and aktuelles_element < list[j]:
+    list[j + 1] = list[j]
+
+    # reduziert den j Wert bei jedem Durchlauf durch die zweite Schleife um 1
+    j -= 1
+
+# Fügt das aktuelle Element an die richtige Position ein
+list[j + 1] = aktuelles_element
+```
 
 
 
