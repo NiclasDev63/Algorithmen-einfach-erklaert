@@ -118,7 +118,7 @@ Hier fragt ihr euch vielleicht, wieso starten wir an der Stelle 1 und nicht an d
 Das liegt daran, das i unser aktuelles Element ist und wie wir durch das vorherige Beispiel wissen, dieses immer mit seinem Vorgänger verglichen wird, was jedoch nicht möglich wäre, wenn wir an der stelle 0 beginnen, da wir dann am Anfang der Liste wären und es somit keinen Vorgänger gibt, wodurch ein Fehler entstehen würde, der das Programm zum Absturz bringt.
 <br>
 <br>
-
+Fahren wir fort.
 ```python
 # zweite Schleife
 # wird ausgeführt, solange j größer oder gleich 0 ist UND das aktuelle Element kleiner als sein Vorgänger ist
@@ -131,13 +131,26 @@ while j >= 0 and aktuelles_element < list[j]:
 # Fügt das aktuelle Element an die richtige Position ein
 list[j + 1] = aktuelles_element
 ```
+Das ist unsere zweite Schleife.
+Hier ist anders als bei der "for-Schleife"  keine feste Anzahl vorgeschrieben, wie oft die Schleife durchlaufen werden soll.
+Stattdessen wird diese Schleife solange ausgeführt, bis j kleiner als 0 wird oder unser aktuelles Element nicht mehr kleiner als sein Vorgänger ist.
 
+Falls einer der beiden Fälle noch nicht eingetreten ist, startet die Schleife und setzt das Element aus der Liste, welches sich an der Stelle j+1 befindet, an die Stelle j.
 
+Danach wird der j Wert um 1 reduziert, da wir die Liste bis zu Anfang durchlaufen wollen.
+<br>
+**Bespiel:**
+<br>
+> Liste = [20, 21, 13, 6, 85, 16] und j = 3
+> 
+> Liste[j] = 6 (da wir bei 0 anfangen zu zählen)
 
+> j -= 1 somit ist j = 2
 
+> Liste[j] = 13
 
-
-
+Nachdem die Schleife fertig durchlaufen ist, also eine der beiden Bedingungen nicht mehr erfüllt ist, setzten wir unser aktuelles Element auf list[j+1].
+Hier setzten wir es auf j+1 und nicht auf j, da nach jedem Durchlauf der zweiten Schleife j-1 genommen wird.
 
 
 
