@@ -60,6 +60,12 @@ Nun schauen wir uns eine Implementierung des Algorithmus in Python an.
 <br>
 
 ```python
+"""
+
+Anfang des Algorithmus
+
+"""
+                        
 def insertionSort(list):
 
     # n = Länge der übergebenen Liste
@@ -86,6 +92,12 @@ def insertionSort(list):
         
         # Fügt das aktuelle Element an die richtige Position ein
         list[j + 1] = aktuelles_element
+
+"""
+
+Ende des Algorithmus
+
+"""
 
 
 
