@@ -114,8 +114,60 @@ mergeSort(list)
 # Hier geben wir unsere sortierte liste in der Konsole aus
 print("Sortierte Liste: " + str(list))
 ```
+<br>
+<br>
+Nun gehen wir wie gewohnt auf einzelne Abschnitte des Codes ein.
+<br>
+<br>
 
+```python
+# länge der Liste
+n = len(list)
 
+# mitte der Liste
+mitte = n //2
+
+# linke hälfte der Liste
+linke_haelfte = list[:mitte]
+
+# rechte hälfte der Liste
+rechte_haelfte = list[mitte:]
+```
+Hier bestimmen wir zuerst die Länge der Liste.<br>
+Danach bestimmen wir die Mitte der Liste indem wir die Länge der Liste durch 2 teilen und abrunden.<br>
+Anschließend wird die linke Hälfte der Liste bestimmt, indem wir Sogenanntes list slicing benutzten, was eine in Python eingebaute Funktion ist.<br>
+Hier geben wir an, welchen Teil der Liste wir in die Variable "linke_haelfte" schreiben wollen und zwar starten wir bei 0 und gehen bis zur Mitte.<br>
+Danach tun wir dasselbe für die Variable "rechte_haelfte", jedoch starten wir hier bei der Mitte und gehen bis zum Ende.<br>
+<br>
+```python
+# zweite Schleife
+# Hierdurch wird überprüft, ob sich noch ein Element in der linken Hälfte befindet,
+# welches noch nicht bei unserer übergebenen List einsortiert wurde
+while i < len(linke_haelfte):
+    list[k] = linke_haelfte[i]
+    k += 1
+    i += 1
+
+# dritte Schleife
+# Hierdurch wird überprüft, ob sich noch ein Element in der rechten Hälfte befindet,
+# welches noch nicht bei unserer übergebenen List einsortiert wurde
+while j < len(rechte_haelfte):
+    list[k] = rechte_haelfte[j]
+    k += 1
+    j += 1
+```
+<br>
+<br>
+Diese beiden Schleifen sind wichtig, da es durchaus vorkommen kann, dass eine der beiden Listen noch nicht leer ist.
+Durch diese Schleifen wird dann diese Liste "ausgeleert" und unserer übergebenen Liste hinzugefügt.
+<br>
+<br>
+
+![image](https://user-images.githubusercontent.com/83044113/152562734-9e0d8a21-0c38-49d5-91e0-9902daf431eb.png)
+<br>
+<br>
+Wie man hier sieht, wird immer ein Element aus der linken Hälfte mit einem Element aus der rechten Hälfte verglichen und da es der Fall sein könnte, dass bspw. das erste Element der linken Hälfte größer ist als alle Element der rechten Hälfte, würden uns am Ende in unserer sortierten Liste die Elemente der linken Hälfte fehlen.<br>
+Aus diesem Grund gibt es die while Schleifen 2 und 3.
 <br>
 <br>
 
