@@ -109,7 +109,7 @@ list = [20, 21, 13, 6, 85, 16]
 print("Unsortierte Liste: " + str(list))
 
 # Diese Liste wird dann in unsere erstelle Funktion 
-# übergeben und der Bubble Sort Algorithmus wird ausgeführt und sortiert die Liste
+# übergeben und der Mergesort Algorithmus wird ausgeführt und sortiert die Liste
 mergeSort(list)
 
 # Hier geben wir unsere sortierte liste in der Konsole aus
