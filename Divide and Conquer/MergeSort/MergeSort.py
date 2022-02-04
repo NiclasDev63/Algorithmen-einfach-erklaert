@@ -1,3 +1,8 @@
+"""
+
+Anfang des Algorithmus
+
+"""
 def mergeSort(list):
 
     # überprüft, ob die Länge der übergebenen Liste größer als 1 ist
@@ -61,7 +66,11 @@ def mergeSort(list):
             list[k] = rechte_haelfte[j]
             k += 1
             j += 1
+"""
 
+Ende des Algorithmus
+
+"""
 
 # Wir erstellen eine Liste die sortiert werden soll
 list = [20, 21, 13, 6, 85, 16]
