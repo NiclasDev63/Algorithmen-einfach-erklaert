@@ -1,5 +1,5 @@
 # Mergesort
-Mergesort gehört zu den fortgeschritteneren Sortieralgortihmen und ist dank Divide and Conquer wesentlich schneller als bspw. Bubble- oder Insertionsort.
+Mergesort gehört zu den fortgeschritteneren Sortieralgorithmen und ist dank Divide and Conquer wesentlich schneller als bspw. Bubble- oder Insertionsort.
 
 ### Laufzeitkomplexität:
 
