@@ -78,8 +78,7 @@ list = [20, 21, 13, 6, 85, 16]
 # Hier geben wir unsere unsortierte liste in der Konsole aus
 print("Unsortierte Liste: " + str(list))
 
-# Diese Liste wird dann in unsere erstelle Funktion 
-# übergeben und der Mergesort Algorithmus wird ausgeführt und sortiert die Liste
+# ruft unsere Funktion mit der zu sortierenden Liste auf
 mergeSort(list)
 
 # Hier geben wir unsere sortierte liste in der Konsole aus
