@@ -87,8 +87,14 @@ list = [20, 21, 13, 6, 85, 16]
 # Hier geben wir unsere unsortierte liste in der Konsole aus
 print("Unsortierte Liste: " + str(list))
 
+# Der Startindex unserer Liste
+low = 0
+
+# Das vorletzte Element unserer Liste
+high = len(list)-1
+
 # ruft unsere Funktion mit der zu sortierenden Liste auf
-quickSort(list)
+quickSort(list, low, high)
 
 # Hier geben wir unsere sortierte liste in der Konsole aus
 print("Sortierte Liste: " + str(list))
