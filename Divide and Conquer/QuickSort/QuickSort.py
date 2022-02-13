@@ -70,7 +70,7 @@ def quickSort(unsortierte_liste, low, high):
         # Hier rufen wir zuerst mit der einen Hälfte der Liste und
         # danach mit der anderen Hälfte der Liste unsere quicksort Methode auf
         quickSort(unsortierte_liste, low, pivot - 1)
-
+        
         quickSort(unsortierte_liste, pivot + 1, high)
 """
 
