@@ -10,4 +10,4 @@ Des weiteren verbraucht Quicksort im vergleich zu Mergesort weniger Speicher, we
 
 ### Platzkomplexität
 Die Platzkomplexität beträgt O( log(n) ).<br>
-Hier wird das Sortieren der Liste In-Place durchgeführt wird.
+Hierbei handelt es sich laut Definition um einen In-Place Algorithmus, da der extra Speicher lediglich für die Rekursion und nicht für das Bearbeiten der Eingabe verwendet wird.
