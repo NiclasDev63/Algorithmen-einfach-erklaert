@@ -90,7 +90,7 @@ print("Unsortierte Liste: " + str(list))
 # Der Startindex unserer Liste
 low = 0
 
-# Das vorletzte Element unserer Liste
+# Das letzte Element unserer Liste
 high = len(list)-1
 
 # ruft unsere Funktion mit der zu sortierenden Liste auf
