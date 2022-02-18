@@ -43,7 +43,7 @@ Das ist nicht der Fall, weshalb das low Element an der Stelle bleibt und wir zum
 
 **5.)** Da wir unsere Liste in zwei Hälften aufteilen wollen, in der die untere Hälfte aus Elementen besteht, die kleiner und die rechte Hälfte aus Elementen besteht die größer als das pivot Element sind, tauschen wir nun die Werte, die sich in unseren aktuellen low und high Elementen befinden.
 
-![image](https://user-images.githubusercontent.com/83044113/154671886-cd1a7637-ec29-48c0-ad85-3c8512c660f0.png)
+![image](https://user-images.githubusercontent.com/83044113/154672088-bd7ede67-371a-42d1-a801-8ab0188419df.png)
 
 
 
