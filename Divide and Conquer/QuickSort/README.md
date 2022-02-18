@@ -30,8 +30,12 @@ Das high Element befindet sich am oberen Ende der Liste und das low Element am u
 
 **3.)** Jetzt fangen wir an zu vergleichen, ob das high Element größer als das pivot Element ist.
 Das ist der Fall, weshalb das high Element an der Stelle bleibt und wir einen Schritt nach links gehen.
+Diesen Schritt wiederholen wir solange, bis das high Element nicht mehr größer oder gleich dem pivot Element ist.
 
 ![image](https://user-images.githubusercontent.com/83044113/154669678-e82acc6c-0c6a-4a57-95e3-49ce248ecd96.png)
 
+Da das aktuelle high Element (die 6) kleiner als das pivot Element (die 16) ist, beenden wir diesesn Schritt und fahren mit dem nächsten fort.
 
+**4.)** Jetzt überprüfen wir, ob das low Element kleiner als das pivot Element ist.
+Das ist nicht der Fall, weshalb das low Element an der Stelle bleibt und wir einen Schritt nach links gehen.
 
