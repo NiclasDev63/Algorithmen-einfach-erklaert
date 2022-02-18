@@ -11,3 +11,13 @@ Des weiteren verbraucht Quicksort im vergleich zu Mergesort weniger Speicher, we
 ### Platzkomplexität
 Die Platzkomplexität beträgt O( log(n) ).<br>
 Hierbei handelt es sich laut Definition um einen In-Place Algorithmus, da der extra Speicher lediglich für die Rekursion und nicht für das Bearbeiten der Eingabe verwendet wird.
+
+### Funktionsweise
+**1.)** Als erstes bestimmen wir unser Pivot Element. Hierzu gibt es verschiedene Ansätze, die je nach Implementation variieren können.<br>
+**Beispiele:**
+
++ Man wählt immer das letzte Element als Pivot Element aus.
++ Man wählt immer das erste Element als Pivot Element aus.
++ Man wählt das Pivot Element aus zufällig aus.
+
+**2.)** 
