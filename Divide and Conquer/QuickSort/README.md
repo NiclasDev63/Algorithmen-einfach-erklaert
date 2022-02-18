@@ -25,3 +25,7 @@ In unserem Beispiel befindet sich dieses am Ende der Liste.
 
 **2.)** Danach weisen wir dem Algorithmus noch ein low und ein high zu.
 Das high Element befindet sich am oberen Ende der Liste und das low Element am unteren.
+
+![image](https://user-images.githubusercontent.com/83044113/154667913-bbf0defa-bbbf-46f5-a148-be70a019d81e.png)
+
+
