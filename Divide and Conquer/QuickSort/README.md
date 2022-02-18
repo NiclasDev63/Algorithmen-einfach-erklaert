@@ -18,6 +18,10 @@ Hierbei handelt es sich laut Definition um einen In-Place Algorithmus, da der ex
 
 + Man wählt immer das letzte Element als Pivot Element aus.
 + Man wählt immer das erste Element als Pivot Element aus.
-+ Man wählt das Pivot Element aus zufällig aus.
++ Man wählt das Pivot Element zufällig aus.
 
-**2.)** 
+Das Pivot Element gilt als "Anhaltspunkt" zum sortieren der Liste.
+In unserem Beispiel befindet sich dieses am Ende der Liste.
+
+**2.)** Danach weisen wir dem Algorithmus noch ein low und ein high zu.
+Das high Element befindet sich am oberen Ende der Liste und das low Element am unteren.
