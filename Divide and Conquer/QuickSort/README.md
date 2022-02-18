@@ -23,9 +23,15 @@ Hierbei handelt es sich laut Definition um einen In-Place Algorithmus, da der ex
 Das Pivot Element gilt als "Anhaltspunkt" zum sortieren der Liste.
 In unserem Beispiel befindet sich dieses am Ende der Liste.
 
-**2.)** Danach weisen wir dem Algorithmus noch ein low und ein high zu.
+**2.)** Danach weisen wir dem Algorithmus noch ein low und ein high Element zu.
 Das high Element befindet sich am oberen Ende der Liste und das low Element am unteren.
 
 ![image](https://user-images.githubusercontent.com/83044113/154667913-bbf0defa-bbbf-46f5-a148-be70a019d81e.png)
+
+**3.)** Jetzt fangen wir an zu vergleichen, ob das high Element größer als das pivot Element ist.
+Das ist der Fall, weshalb das high Element an der Stelle bleibt und wir einen Schritt nach links gehen.
+
+![image](https://user-images.githubusercontent.com/83044113/154669678-e82acc6c-0c6a-4a57-95e3-49ce248ecd96.png)
+
 
 
