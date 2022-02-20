@@ -173,6 +173,7 @@ quickSort(list, low, high)
 print("Sortierte Liste: " + str(list))
 ```
 <br>
+
 **Da alle Schritte meiner Meinung nach bereits sehr ausführlich behandelt wurden, werde ich nicht genauer auf den Code eingehen.**
 
 
