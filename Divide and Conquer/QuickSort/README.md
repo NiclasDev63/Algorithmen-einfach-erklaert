@@ -51,5 +51,19 @@ Das ist nicht der Fall, weshalb das low Element an der Stelle bleibt und wir zum
 
 ![image](https://user-images.githubusercontent.com/83044113/154672360-ff00841d-0f6f-49d3-bf2b-988e028e1d71.png)
 
+**6.)** Die vorherigen Schritte werden solange wiederholt, bis low nicht mehr kleiner als high ist.
+
+![image](https://user-images.githubusercontent.com/83044113/154836884-9b5fb71f-0ce9-451b-b8fc-f9a536916bdb.png)
+
+Durch diesen Schritt haben wir erreicht, das auf der Linken Seite des pivot Elements alle Werte die kleiner und auf der Rechten Seite alle die größer sind stehen.
+
+**7.)** Die Liste wird am pivot Element geteilt und alle Schritte werden erneut für die Teillisten ausgeführt.
+
+![image](https://user-images.githubusercontent.com/83044113/154837148-3ff3c714-c9c3-4c09-94f1-b9792d911a82.png)
+
+
+
+
+
 
 
