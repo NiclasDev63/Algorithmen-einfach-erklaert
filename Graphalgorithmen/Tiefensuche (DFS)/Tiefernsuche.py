@@ -1,4 +1,5 @@
 from collections import defaultdict
+from pydoc import visiblename
 
 # Hier erstellen wir die Klasse Graph
 class Graph:
@@ -15,10 +16,37 @@ class Graph:
 
         
     """
+
     Start des Algorithmus
+
     """
     def _tiefensuche(self, v, besucht):
-        pass
+        print(v, end=" ")
+        besucht[v] = True
+        for i in self.graph[v]:
+            if not besucht[i]:
+                self._tiefensuche(i, besucht)
     
     def tiefensuche(self, v):
-        pass
+        besucht = [False] * len(self.graph)
+        self._tiefensuche(v, besucht)   
+    """
+
+    Ende des Algorithmus
+    
+    """
+
+# Hier erstellen wir ein Objekt des Graphen
+g = Graph()
+
+# Hier erstellen wir neue Knoten mit Kanten
+g.addEdge(0, 1)
+g.addEdge(0, 2)
+g.addEdge(1, 2)
+g.addEdge(2, 0)
+g.addEdge(2, 3)
+g.addEdge(3, 3)
+
+# Hier rufen wir den Algortihmus auf 
+# und übergeben ihn einen Startknoten
+g.tiefensuche(2)
