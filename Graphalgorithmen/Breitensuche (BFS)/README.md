@@ -8,6 +8,10 @@ Ein Beispiel für letzteres findest du hier https://github.com/NiclasDev63/LinkG
 V ist die Nummer der Knoten<br>
 E ist die Nummer der Kanten<br>
 
+### Platzkomplexität
+
+Die Platzkomplexität beträgt O( V ).<br>
+
 ### Funktionsweise
 
 **1.)** Als erstes erstellen wir eine Liste namens Besucht und füllen diese mit False werten.
