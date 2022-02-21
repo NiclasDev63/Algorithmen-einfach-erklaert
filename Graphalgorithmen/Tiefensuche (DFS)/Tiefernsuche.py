@@ -19,6 +19,8 @@ class Graph:
     Start des Algorithmus
 
     """
+    
+    # Diese Funktion wird rekursiv aufgerufen
     def _tiefensuche(self, v, besucht):
         # Gibt den aktuellen Knoten aus
         print(v, end=" ")
@@ -34,6 +36,7 @@ class Graph:
             if not besucht[i]:
                 self._tiefensuche(i, besucht)
     
+    # Erstellt die besucht Liste und ruft die "_tiefensuche" Funktion auf
     def tiefensuche(self, v):
         # Hier erstellen wir eine Liste mit False werten
         # um nachzuvollziehen, welche Knoten bereits besucht wurden
@@ -41,6 +44,7 @@ class Graph:
 
         # Hier rufen wir den eigentlichen Algorithmus auf
         self._tiefensuche(v, besucht)   
+
     """
 
     Ende des Algorithmus
