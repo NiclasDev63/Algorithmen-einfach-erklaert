@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 # Hier erstellen wir die Klasse Graph
-class Graph:
+class Graph():
 
     # Das ist der Konstruktor der Klasse
     # Hier erstellen wir ein defaultdict mit einer Liste,
@@ -19,7 +19,7 @@ class Graph:
     Start des Algorithmus
 
     """
-    
+
     # Diese Funktion wird rekursiv aufgerufen
     def _tiefensuche(self, v, besucht):
         # Gibt den aktuellen Knoten aus

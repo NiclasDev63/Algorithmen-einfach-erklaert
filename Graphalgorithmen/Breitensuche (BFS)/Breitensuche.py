@@ -3,7 +3,7 @@ from collections import deque
 
 
 # Hier erstellen wir die Klasse Graph
-class Graph:
+class Graph():
 
     # Das ist der Konstruktor der Klasse
     # Hier erstellen wir ein defaultdict mit einer Liste,
