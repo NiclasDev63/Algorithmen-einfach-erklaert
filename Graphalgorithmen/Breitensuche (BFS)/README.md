@@ -1,6 +1,7 @@
 # Breitensuche (Breadth First Search)
 Die Breitensuche ermöglicht es uns einen Graphen von einem bestimmten Punkt aus zu durchqueren und beispielsweise den schnellsten Weg zu einem Knoten V zu finden.
 Zusätzlich kann der Algorithmus beim Webcrawling verwendet werden um alle Links auf einer Webseite zu finden.
+Ein Beispiel für letzteres findest du hier https://github.com/NiclasDev63/LinkGrabber.
 ### Laufzeitkomplexität:
 
 **O( V+E )**<br>
