@@ -42,7 +42,7 @@ class Graph:
             # Hier entfernen wir ganz nach dem Prinzip (First in First out) den ersten Wert der Liste
             # und weisen ihn unserem s zu
             s = queue.popleft()
-
+            
             # Gibt den aktuellen Knoten aus
             print(s, end = " ")
 
