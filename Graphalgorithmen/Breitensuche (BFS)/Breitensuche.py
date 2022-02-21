@@ -27,7 +27,6 @@ class Graph:
         # Hier erstellen wir eine Liste mit False werten
         # um nachzuvollziehen, welche Knoten bereits besucht wurden
         besucht = [False] * len(self.graph)
-        print(self.graph)
         
         # Hier erstellen wir eine Queue und
         # übergeben ihr unseren Startknoten
@@ -43,6 +42,7 @@ class Graph:
             # Hier entfernen wir ganz nach dem Prinzip (First in First out) den ersten Wert der Liste
             # und weisen ihn unserem s zu
             s = queue.popleft()
+            print(s, end = " ")
 
             # Zweite Schleife
             # Folgt den Kanten der aktuellen Knoten
