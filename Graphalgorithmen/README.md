@@ -6,6 +6,8 @@ Dieser wird dazu genutzt, um Objekte und deren Verbindung miteinander zu repräs
 Graphen und die damit verbunden Graphenalgorithmen werden häufig in der Informatik verwendet.
 Ein populäres Beispiel hierfür ist Google Maps.
 Hier werden die sogennanten gewichteten Graphen in Verbindung mit einem Suchalgortihmus wie beispielsweise dem Dijkstra Algortihmus verwendet.
+<br>
+<br>
+Hier ein Bild eines Graphen zur visualisierung:
 
-Hier ein Bild eines Graphen für die visualisierung:
-
+![image](https://user-images.githubusercontent.com/83044113/154920066-62eb61c9-46d4-4782-9be6-610768ada38d.png)
