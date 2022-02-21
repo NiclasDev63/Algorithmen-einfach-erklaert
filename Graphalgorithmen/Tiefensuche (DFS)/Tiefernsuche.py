@@ -1,5 +1,4 @@
 from collections import defaultdict
-from pydoc import visiblename
 
 # Hier erstellen wir die Klasse Graph
 class Graph:
@@ -21,14 +20,26 @@ class Graph:
 
     """
     def _tiefensuche(self, v, besucht):
+        # Gibt den aktuellen Knoten aus
         print(v, end=" ")
+
+        # Hier setzen wir den aktuellen Knoten auf besucht
         besucht[v] = True
+
+        # Schleife die die Nachbarn unseres aktuellen Knoten besucht
         for i in self.graph[v]:
+
+            # Hier wird überprüft, ob der Nachbarknoten bereits besucht wurde
+            # Falls nein, rufen wir unsere "_tiefensuche" Funktion mit dem Nachbarknoten auf
             if not besucht[i]:
                 self._tiefensuche(i, besucht)
     
     def tiefensuche(self, v):
+        # Hier erstellen wir eine Liste mit False werten
+        # um nachzuvollziehen, welche Knoten bereits besucht wurden
         besucht = [False] * len(self.graph)
+
+        # Hier rufen wir den eigentlichen Algorithmus auf
         self._tiefensuche(v, besucht)   
     """
 
