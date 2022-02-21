@@ -4,13 +4,13 @@ Zusätzlich kann der Algorithmus beim Webcrawling verwendet werden um alle Links
 Ein Beispiel für letzteres findest du hier https://github.com/NiclasDev63/LinkGrabber.
 ### Laufzeitkomplexität:
 
-Die Laufzeitkomplexität beträgt **O( V+E )**<br>
+Die Laufzeitkomplexität beträgt **O( V+E )**.<br>
 V ist die Nummer der Knoten<br>
 E ist die Nummer der Kanten<br>
 
 ### Platzkomplexität
 
-Die Platzkomplexität beträgt O( V ).<br>
+Die Platzkomplexität beträgt **O( V )**.<br>
 
 ### Funktionsweise
 
