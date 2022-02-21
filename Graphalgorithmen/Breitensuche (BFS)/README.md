@@ -2,6 +2,7 @@
 
 
 ### Laufzeitkomplexität:
-O( V+E )
-V ist die Nummer der Knoten
-E ist die Nummer der Kanten
+
+O( V+E )<br>
+V ist die Nummer der Knoten<br>
+E ist die Nummer der Kanten<br>
