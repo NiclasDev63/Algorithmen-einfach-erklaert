@@ -12,3 +12,7 @@ Hier werden die sogennanten gewichteten Graphen in Verbindung mit einem Suchalgo
 Hier ein Bild eines Graphen zur visualisierung:
 
 ![image](https://user-images.githubusercontent.com/83044113/154920066-62eb61c9-46d4-4782-9be6-610768ada38d.png)
+
+Zur Visualisierung der Algorithmen habe ich diese implementiert, um den schnellste Weg aus einem Labyrinth zu finden.
+Das Projekt findest du hier https://github.com/NiclasDev63/Algorithm-visualization.
+
