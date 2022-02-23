@@ -26,7 +26,7 @@ class Graph():
         # Setzt den Anfangswert von min auf unendlich
         min = float("inf")
 
-        # Index der "günstigsten Knote"
+        # Index des "günstigsten Knoten"
         min_index = goal
 
         # Liste unseres kürzesten Weges
@@ -40,18 +40,30 @@ class Graph():
         for _ in range(self.knoten):
             goal = min_index
 
-            for y in range(self.knoten):
-                if self.graph[goal][y] != 0:
-                    if entfernung[y] < min:
-                        min = entfernung[y]
-                        min_index = y
-            kzwList.append(min_index)
-
             # Überprüft ob der Startknoten gefunden wurde und bricht die Schleife ab
             if min_index == src:
                 break
 
+            # Erste Schleife
+            # Startet bei 0 und läuft bis Knotenanzahl - 1
+            for y in range(self.knoten):
+
+                # Überprüft ob der aktuelle Knoten eine Verbindung mit einem anderen hat
+                if self.graph[goal][y] != 0:
+
+                    # Überprüft ob die Entfernung des Knoten y kleiner ist als min, 
+                    # falls ja wird min auf die Entfernung des y Knoten gesetzt
+                    if entfernung[y] < min:
+                        min = entfernung[y]
+                        min_index = y
+
+            # Fügt den "günstigsten Knoten" unserer Liste hinzu            
+            kzwList.append(min_index)
+
+        # Kehrt unsere ganze Liste um, damit der Weg in der richtigen Reihenfolge angezeigt wird
         kzwList.reverse()
+
+        # Gibt den Kürzesten Weg aus
         print(kzwList)
 
 
