@@ -6,10 +6,10 @@ class Graph():
         self.graph = [[0 for spalte in range(knoten)]
         for zeile in range(knoten)]
 
-    def printLösung(self, dist):
+    def printLösung(self, entfernung):
         print("Knoten \tEntfernung zum Startknoten")
         for knoten in range(self.knoten):
-            print(knoten, "\t", dist[knoten])
+            print(knoten, "\t", entfernung[knoten])
 
     def _minEntfernung(self, entfernung, kzwSet):
 
