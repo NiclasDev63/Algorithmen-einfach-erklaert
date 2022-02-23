@@ -17,4 +17,23 @@ Die Platzkomplexität beträgt ebenfalls **O(V^2)**.<br>
 
 ### Funktionsweise
 
-1.) 
+Vorab unser Graph, in welchem wir Dijkstra`s Algorithmus anwenden:
+
+![image](https://user-images.githubusercontent.com/83044113/155374222-8f670d8b-acae-4bda-afb1-99ac7c2b303f.png)
+
+Die Zahlen neben den Linien sind die sogennanten Gewichte.
+
+**1.)** Zunächst suchen wir uns einen Startpunkt aus.
+In unserem Fall, wählen wir die 0.
+Danach schauen wir uns an, welche Knoten mit unserem Startknoten ( 0 ) verbunden sind und zwar sind das die Knoten 1 und 7.
+Also besuchen wir diese.
+
+![image](https://user-images.githubusercontent.com/83044113/155375274-651e815f-65c8-445d-888a-148f9aa7bf22.png)
+
+
+**Anmerkung:**
+Die orangen Knoten wurden besucht und die grünen Knoten gelten als abgeschlossen und werden nicht weiter behandelt.
+<br>
+Die Zahlen an den Knoten sind die jeweiligen Kosten.
+
+
