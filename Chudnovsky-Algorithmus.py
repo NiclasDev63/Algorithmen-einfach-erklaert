@@ -1,3 +1,6 @@
+// Dieser Algorithmus berechnet beliebig viele Nachkommastellen von Pi
+
+
 from math import ceil, factorial
 from decimal import Decimal, getcontext
 from time import time
